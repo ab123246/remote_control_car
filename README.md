@@ -24,13 +24,16 @@
 | 可變電阻 | 調整電壓大小以控制馬達的扭力及速度 |
 | 伺服馬達 | SG-90 |
 
+<p align='center'>
+<img src="PIC/car.jpg" alt="硬體">
+</p>
+
+
 ## 功能區塊圖：
 <p align='center'>
-<img src="PIC/PIC1.png" alt="" width="800">
+<img src="PIC/PIC1.png" alt="功能區塊圖" width="800">
 </p>
-<p align='center'>
-    <img src="/docs/data_collect.gif" alt="drawing" width="800"/>
-</p>
+
 
 ## 功能介紹
 
@@ -54,6 +57,13 @@
    - 需要透過 `gcnew string(放入一串字元陣列)` 來轉換
    - 會造成記憶體慢慢增加,導致無法正常控管記憶體的使用量
    - 利用 `GC::collect();` 來強制釋放未使用的記憶體給系統
+<p align='center'>
+<img src="PIC/PIC2.png" alt="展示圖" width="800">
+</p>
+
+<p align='center'>
+<img src="PIC/PIC3.png" alt="" width="800">
+</p>
 
 #### 參考資料
 
@@ -80,6 +90,12 @@
 
 這次製作專題我負責的是client端的程式和light sensor的製作,light sensor原本是為了要做距離感測的一個量測模組,但因為時間關係,來不及完成那部分的功能,程式的部分為了使我們的專題擁有使用者介面,我們這組選擇使用VC來製作server跟client端的程式,這對我來說是很大的技術障礙,因為我從來沒有打過VC,不過最終在同學的協助下還是讓這次的專題有了基本的功能,控制端跟server間傳輸的工具我們使用以前課堂上教的winsock來製作,相對來說簡單一些,不過在VC的打法上還是有些不同,總之這次的專題在程式編輯上我也有了很大的進步。
 
+<p align='center'>
+<img src="PIC/PIC4.png" alt="展示圖" width="800">
+</p>
+<p align='center'>
+    <img src="/docs/data_collect.gif" alt="drawing" width="800"/>
+</p>
 #### 參考資料
 
 - [如何在單一事件中取得多個按鍵](https://stackoverflow.com/questions/7176951/how-to-get-multiple-key-presses-in-single-event)
