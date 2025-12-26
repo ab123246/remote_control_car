@@ -24,8 +24,9 @@
 | 可變電阻 | 調整電壓大小以控制馬達的扭力及速度 |
 | 伺服馬達 | SG-90 |
 
+
 <p align='center'>
-<img src="PIC/car.jpg" alt="硬體">
+<img src="PIC/car.jpg" alt="硬體示意" width="600">
 </p>
 
 
