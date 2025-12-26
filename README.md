@@ -97,6 +97,7 @@
 <p align='center'>
     <img src="/docs/data_collect.gif" alt="drawing" width="800"/>
 </p>
+
 #### 參考資料
 
 - [如何在單一事件中取得多個按鍵](https://stackoverflow.com/questions/7176951/how-to-get-multiple-key-presses-in-single-event)
